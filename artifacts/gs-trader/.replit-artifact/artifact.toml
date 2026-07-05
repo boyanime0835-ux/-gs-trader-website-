@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "GS Trader"
+version = "1.0.0"
+id = "artifacts/gs-trader"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25464
+
+[services.development]
+run = "pnpm --filter @workspace/gs-trader run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/gs-trader", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/gs-trader/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25464"
+BASE_PATH = "/"

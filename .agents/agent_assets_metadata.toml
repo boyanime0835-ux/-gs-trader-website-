@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "47AWLx_yOaQi5EhqzrUny"
+uri = "file://tradewithgs-website.zip"
+type = "unspecified"
+title = "TradeWithGS Website — Download ZIP"
