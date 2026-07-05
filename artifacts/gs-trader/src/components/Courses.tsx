@@ -169,7 +169,7 @@ export default function Courses() {
                     <span className="text-xs text-muted-foreground ml-1">/ course</span>
                   </div>
                   <a
-                    href="tel:+919619340680"
+                    href="https://wa.me/919619340680?text=Hi%20TradeWithGS%2C%20I%20am%20interested%20in%20your%20trading%20course!"
                     className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-primary/10 border border-primary/20 text-primary font-semibold text-sm hover:bg-primary hover:text-primary-foreground transition-all duration-200 active:scale-95 group/btn"
                   >
                     Enroll Now
@@ -193,7 +193,7 @@ export default function Courses() {
             Have questions about which course is right for you?
           </p>
           <a
-            href="tel:+919619340680"
+            href="https://wa.me/919619340680?text=Hi%20TradeWithGS%2C%20I%20am%20interested%20in%20your%20trading%20course!"
             className="inline-flex items-center gap-3 px-8 py-4 rounded-xl bg-card border border-white/10 hover:border-primary/40 transition-all duration-200 group shadow-[0_0_30px_-10px_rgba(240,165,0,0.2)] hover:shadow-[0_0_40px_-10px_rgba(240,165,0,0.4)]"
           >
             <div className="w-10 h-10 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
