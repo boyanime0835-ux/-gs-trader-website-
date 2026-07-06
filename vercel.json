@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "installCommand": "npm install -g pnpm@9 && pnpm install --no-frozen-lockfile",
+  "buildCommand": "PORT=3000 BASE_PATH=/ pnpm --filter @workspace/gs-trader run build",
+  "outputDirectory": "artifacts/gs-trader/dist/public",
+  "framework": null
+}
